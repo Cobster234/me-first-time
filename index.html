@@ -17,58 +17,73 @@
 
 <body class="min-vh-100 overflow-y-scroll d-flex flex-column">
     <header>
+        <!-- Your navigation could live here, or you can delete the header tag -->
+
+        <nav class="navbar" style="background-color: #E31836;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">What's up peeps</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                            Home
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">What now</a>
+                        <a href="#" class="list-group-item list-group-item-action">Don't know</a>
+                        <a href="#" class="list-group-item list-group-item-action">So anyway</a>
+                        <a class="list-group-item list-group-item-action disabled" aria-disabled="true">"Snoring"</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Navbar content -->
+        </nav>
+        <br>
+        <main class="flex-grow-1">
+            <section class="container mt-4">
+                <h1>I Like Buttons</h1>
+                <p>
+                    And there are so many kinds, big, small, round, square ones.
+                    colorful, sad, shiny and so many more.
+                </p>
+            </section>
+        </main>
+        <br>
 
         <div class="container text-center">
                 <div class="row g-2 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
-                <div class="col">
-                    One
-                </div>
-                <div class="col">
-                    Two
-                </div>
-                <div class="col">
-                    Three
-                </div>
-                <div class="col">
-                    Four
-                </div>
-                <div class="col">
-                    Five
-                </div>
-                <div class="col">
-                    Six
-                </div>
-                <div class="col">
-                Seven
-                </div>
-                <div class="col">
-                    Eight
-                </div>
-                <div class="col">
-                    Nine
-                </div>
-                <div class="col">
-                Ten
-                </div>
-                <div class="col">
-                    Eleven
-                </div>
-                <div class="col">
-                    Twelve
-                </div>
+                    <button type="button" class="btn btn-primary">Why</button>
+                    <button type="button" class="btn btn-secondary">Are</button>
+                    <button type="button" class="btn btn-success">We</button>
+                    <button type="button" class="btn btn-danger">Still</button>
+                    <button type="button" class="btn btn-warning">Here</button>
+                    <button type="button" class="btn btn-info">Just</button>
+                    <button type="button" class="btn btn-light">To</button>
+                    <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Suffer
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">More Suffering</a></li>
+                    </ul>
+
+
             </div>
         </div>
-            <!-- Your navigation could live here, or you can delete the header tag -->
+        <br>
+        <div class="container text-center">
+            <div class="column g-2 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                <button type="button" class="btn btn-outline-primary">No</button>
+                <button type="button" class="btn btn-outline-secondary">Clue</button>
+                <button type="button" class="btn btn-outline-success">What</button>
+                <button type="button" class="btn btn-outline-danger">I</button>
+                <button type="button" class="btn btn-outline-warning">Am</button>
+                <button type="button" class="btn btn-outline-info">Doing</button>
+                <button type="button" class="btn btn-outline-light">So</button>
+                <button type="button" class="btn btn-outline-dark">Yeah</button>
+            </div>
+        </div>
     </header>
-
-    <main class="flex-grow-1">
-        <section class="container mt-4">
-            <h1>Bootstrap Template Vanilla</h1>
-            <p>
-                This is a template to getting started building a webapp using Bootstrap.
-            </p>
-        </section>
-    </main>
 
     <footer class="text-center text-muted mt-4">
         <p>&copy; 2024 Bootstrap Template Vanilla. All rights reserved.</p>
